@@ -2,6 +2,12 @@
 
 A mobile-first calculator for US drivers comparing gasoline vehicle and EV ownership costs.
 
+Live site:
+
+```text
+https://ev-vs-gas-calculator.pages.dev/
+```
+
 The MVP is free and browser-only. It estimates:
 
 - EV break-even time
