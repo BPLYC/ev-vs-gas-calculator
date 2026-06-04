@@ -4,8 +4,6 @@
 
 This branch is the US English MVP of the original Chinese calculator. The product is now **EV vs Gas Savings Calculator**, a mobile-first web tool for US drivers deciding whether switching from a gas vehicle to an EV is financially worthwhile.
 
-The MVP is free. It has no login, no payment, no membership, no order verification, and no browser-transfer flow.
-
 ## Tech Stack
 
 - Frontend: React 19 + Vite
@@ -78,7 +76,16 @@ Priorities:
 
 - Default placeholder domain is `https://ev-vs-gas-calculator.pages.dev`.
 - When a real domain is chosen, update `index.html`, `public/robots.txt`, and `public/sitemap.xml` together.
-- The original Chinese payment Worker and Pages Function are intentionally removed from this MVP.
+
+## Current Delivery Status
+
+- English standalone repository was created at `C:\tmp\ev-vs-gas-calculator`.
+- GitHub repository: `https://github.com/BPLYC/ev-vs-gas-calculator`.
+- Cloudflare Pages project: `ev-vs-gas-calculator`.
+- Live site: `https://ev-vs-gas-calculator.pages.dev/`.
+- Initial deployment was made from the English repository after the GitHub push.
+- The deployment was created with `wrangler pages deploy dist --project-name ev-vs-gas-calculator --branch main`.
+- The Cloudflare Pages project currently exists and is live, but it was deployed by Wrangler upload. If automatic deploys are desired, connect the Pages project to the GitHub repository in the Cloudflare dashboard.
 
 ## Verification Checklist
 
@@ -99,4 +106,4 @@ For frontend/UI changes:
 
 ## Documentation Discipline
 
-When behavior changes, update the relevant docs in the same change. Do not copy historical Chinese deployment credentials or old payment notes into English-version docs.
+When behavior changes, update the relevant docs in the same change. Do not copy historical credentials or old monetization notes into English-version docs.

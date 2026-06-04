@@ -47,5 +47,4 @@ npm run build
 ## Product Notes
 
 - This English MVP targets US users.
-- Payment, membership, order verification, and browser-transfer flows from the Chinese version are intentionally removed.
 - EV incentives are user-entered because federal, state, utility, and model-specific eligibility rules change frequently.
